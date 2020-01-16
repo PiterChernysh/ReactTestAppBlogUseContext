@@ -1,0 +1,11 @@
+.list
+{
+    margin: 30px 40px 0;
+    padding: 0;
+    list-style-type: none;
+}
+.novigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

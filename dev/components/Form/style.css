@@ -1,0 +1,90 @@
+.form
+{
+    padding: 0 40px;
+
+}
+
+.form label
+{
+    font-size: 1.1em;
+
+    display: block;
+
+    padding: 40px 5px 5px 2px;
+
+    cursor: pointer;
+    text-transform: uppercase;
+
+    color: #2b2b2b;
+}
+
+.form input,
+.form textarea
+{
+    font: inherit;
+
+    display: block;
+
+    width: 100%;
+    padding: 5px 10px;
+
+    color: inherit;
+    border: 3px solid;
+    background: transparent;
+}
+
+.form textarea
+{
+    min-height: 200px;
+}
+
+.form input:focus,
+.form textarea:focus,
+.form label:active + input,
+.form label:active + textarea
+{
+    border-color: #10689a;
+    outline: none;
+}
+
+.form.edit {
+    border-bottom-width: 0;
+}
+
+.form.edit label
+{
+    color: #fefefe;
+}
+
+.form.edit input:focus,
+.form.edit textarea:focus,
+.form.edit label:active + input,
+.form.edit label:active + textarea
+{
+    border-color: #47a3da;
+    outline: none;
+}
+
+.form.edit .button
+{
+    border: 3px solid #fefefe;
+}
+.image{
+    border: solid transparent;
+    /* border-width: 10px; */
+    /* border-bottom: 1px solid rgba(255, 255, 255, .4); */
+    width: 100px;
+}
+.novigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box0 {
+    margin: 0;
+      padding-top: 10px;
+      text-align: center;
+      border-top: 3px solid;
+      background-color: #47a3da ;
+      border: 3px solid #fff;
+  }

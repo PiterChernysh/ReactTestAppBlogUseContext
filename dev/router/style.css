@@ -1,0 +1,12 @@
+.box {
+  width: 850px;
+  margin: auto;
+
+  border: 3px solid #fff;
+}
+.boxPages {
+  text-align: center;
+  border-bottom: 3px solid;
+  background-color: #10689a;
+  border-top: 3px solid #fff;
+}

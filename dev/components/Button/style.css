@@ -1,0 +1,70 @@
+.button
+{
+    font: inherit;
+
+    display: block;
+
+    width: auto;
+    margin: 20px auto;
+    padding: 15px 30px;
+
+    cursor: pointer;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: inherit;
+    border: 3px solid #10689a;
+    background: #10689a;
+}
+
+.button:hover,
+.button:focus
+{
+    background: #1478b1;
+}
+
+.edit
+{
+    border: 3px solid #fefefe;
+}
+
+.menu
+{
+    border: 3px solid #fefefe;
+    background-color: #53a9db;
+}
+
+
+.small
+{
+    margin: 0;
+    padding: 0;
+
+    transition: opacity .3s linear;
+
+    opacity: .7;
+
+    will-change: transform;
+}
+
+.small:hover
+{
+    opacity: 1;
+    background: transparent;
+}
+
+.small svg
+{
+    width: 20px;
+    height: 20px;
+    fill: #fff;
+
+    transition: transform .3s linear;
+
+    will-change: transform;
+}
+
+.small:hover svg
+{
+    transform: scale(1.3)
+}

@@ -1,0 +1,23 @@
+﻿{
+  "1578438652713": {
+    "id": 1578438652713,
+    "name": "Nikolay",
+    "email": "nikolay@n.n",
+    "password": "1234",
+    "status": "false"
+  },
+  "1578438736233": {
+    "id": 1578438736233,
+    "name": "Artem",
+    "email": "artem@a.a",
+    "password": "1234",
+    "status": "false"
+  },
+  "1578438764270": {
+    "id": 1578438764270,
+    "name": "Piter",
+    "email": "piter@p.p",
+    "password": "1234",
+    "status": "false"
+  }
+}
