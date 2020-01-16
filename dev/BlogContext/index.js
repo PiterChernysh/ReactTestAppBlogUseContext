@@ -7,7 +7,7 @@ import MyContext from "../context";
 const Blog = (props) => {
   const [userActive, setUserActive] = useState({});
   const [posts, setPosts] = useState(postsJson);
-  const [users, setUsets] = useState(userJson);
+  const [users, setUsers] = useState(userJson);
   const [comments, setComments] = useState(commentJson);
   const store = {
     userActive: userActive,
@@ -25,7 +25,7 @@ const Blog = (props) => {
         prev[next.id] = next;
         return prev;
       }, {});
-      return setUsets({ ...transformUser, ...users });
+      return setUsers({ ...transformUser, ...users });
     },
     updateUser: user => {
       let transformUsers = users;
