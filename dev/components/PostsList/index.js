@@ -22,7 +22,6 @@ const List = ({ users, posts, userActive }) => {
   for (let key in posts) {
     dataList.push(posts[key]);
   }
-  console.log("dataList ", dataList);
   return (
     <div className={styles.box}>
       <ul className={styles.list}>
